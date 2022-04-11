@@ -4,7 +4,7 @@ You can clone and create your own blog using this configuration.
 
 ## Local Development
 
-Clone this repo and run `yarn` to install dependencies. Content and configuration live in `./src` folder.
+Clone this repo, run `yarn` to install dependencies and `yarn dev` to run in locally. Content and configuration live in `./src` folder.
 
 ### Folder Structures
 
