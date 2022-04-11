@@ -1,0 +1,23 @@
+{
+  "name": "tegar-notes",
+  "version": "0.0.1",
+  "description": "Software Engineering, DevOps and Product Development",
+  "main": "index.js",
+  "authors": {
+    "name": "Tegar Imansyah",
+    "email": "tegar.projects@gmail.com"
+  },
+  "repository": "/tegar-notes",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "vuepress": "^1.5.3",
+    "vuepress-bar": "^0.4.4"
+  }
+}
