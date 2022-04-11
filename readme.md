@@ -1,4 +1,4 @@
-# Tegar's Vue Base Config
+# Tegar's Vuepress Base Config
 
 You can clone and create your own blog using this configuration.
 
@@ -39,3 +39,8 @@ For sidebar, you can split to multiple files in `sidebar` folder inside `.vuepre
 
 Please refer [here](https://v1.vuepress.vuejs.org/theme/default-theme-config.html#sidebar) to more comprehensive tutorial about config for sidebar using default theme.
 
+## Deployment
+
+My recommendation is using [vercel](https://vercel.com/) or [netlify](https://www.netlify.com/) since it will be really easy to set up your CI/CD workflow (that's mean auto build and release your site after your `git push`).
+
+But if you prefer host to github pages or firebase, you need to add github action. Tutorial to be added here later.
