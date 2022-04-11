@@ -31,6 +31,14 @@ src
 
 > **TLDR**: If you only care about writing articles, then you may only need to create folder and your markdown files
 
+### Edit Your Homepage
+
+* Edit your site name and description in `config.js`. It will be used for your [meta tags](https://www.w3schools.com/tags/tag_meta.asp)
+* Edit your `.src/index.md` to add content or change some configuration
+  * Configuration between `---` called [frontmatter](https://v1.vuepress.vuejs.org/guide/frontmatter.html#alternative-frontmatter-formats)
+  * You can add markdown text or html or call vue components after frontmatter. Refer to the file to see example
+
+
 ### Navbar and Sidebar
 
 You can modify navbar in `config.js` inside `.vuepress` folder.
@@ -41,6 +49,12 @@ Please refer [here](https://v1.vuepress.vuejs.org/theme/default-theme-config.htm
 
 ## Deployment
 
-My recommendation is using [vercel](https://vercel.com/) or [netlify](https://www.netlify.com/) since it will be really easy to set up your CI/CD workflow (that's mean auto build and release your site after your `git push`).
+My recommendation is using [vercel](https://vercel.com/) or [netlify](https://www.netlify.com/) since it will be really easy to set up your CI/CD workflow (that's mean auto build and release your site after your `git push`). Your set up will be something like this:
+
+```
+Build command   : yarn build
+Output dir      : ./src/.vuepress/dist
+Install command : yarn
+```
 
 But if you prefer host to github pages or firebase, you need to add github action. Tutorial to be added here later.
